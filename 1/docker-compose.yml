@@ -1,0 +1,13 @@
+version: "3"
+name: "node-app"
+services:
+  node-app:
+    build: .
+    ports:
+      - "5000:3000"
+    #volumes:
+     # - ./:/app
+   # environment:
+    #  - port:5000
+     
+  
